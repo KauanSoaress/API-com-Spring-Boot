@@ -8,7 +8,7 @@ import jakarta.persistence.Table;
 
 @Entity // Define que essa classe é uma entidade do banco de dados
 @Table(name = "pessoas") // Define o nome da tabela no banco de dados
-public class Pessoa {
+public class Pessoa { 
 
   // Atributos
   @Id // Define que o atributo é uma chave primária
