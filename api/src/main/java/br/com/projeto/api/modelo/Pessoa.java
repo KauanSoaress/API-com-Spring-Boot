@@ -15,7 +15,7 @@ public class Pessoa {
   @GeneratedValue(strategy = GenerationType.IDENTITY) // Define que o atributo é auto incrementado, de forma crescente, iniciando com 1
   private int codigo;
   private String nome;
-  private String idade;
+  private int idade;
   
   // Getters e Setters
   public int getCodigo() {
@@ -32,10 +32,10 @@ public class Pessoa {
     this.nome = nome;
   }
 
-  public String getIdade() {
+  public int getIdade() {
     return idade;
   }
-  public void setIdade(String idade) {
+  public void setIdade(int idade) {
     this.idade = idade;
   }
   
